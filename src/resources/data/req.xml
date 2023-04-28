@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE reqs SYSTEM "req.dtd">
+<reqs>
+
+<req id="rq206">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+<req id="rq40">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+<req id="rq26">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+<req id="rq46">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+<req id="rq191">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+<req id="rq248">
+<mips>2698</mips>
+<size>2000</size>
+<ram>1028</ram>
+<bw>100</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+</req>
+</reqs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE vms SYSTEM "vm.dtd">
+<vms>
+
+<vm id="vm0">
+<mips>10000</mips>
+<size>10000</size>
+<ram>10024</ram>
+<bw>10000</bw>
+<cpunum>2</cpunum>
+<vmm>XEN</vmm>
+<status>good</status>
+</vm>
+<vm id="vm1">
+<mips>1000</mips>
+<size>1000</size>
+<ram>1024</ram>
+<bw>1000</bw>
+<cpunum>1</cpunum>
+<vmm>XEN</vmm>
+<status>good</status>
+</vm>
+
+</vms>

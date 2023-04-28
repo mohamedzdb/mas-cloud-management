@@ -1,0 +1,18 @@
+.btn{
+    -fx-background-color: #6200ee;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+}
+.label{
+
+    -fx-text-fill: #6200ee;
+}
+
+.text-field{
+    -fx-text-fill: #6200ee;
+    
+}
+.text-field:focus{
+    -fx-border:none;
+    -fx-outline:none;
+}

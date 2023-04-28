@@ -1,0 +1,9 @@
+<!ELEMENT reqs (req*)>
+<!ELEMENT req (mips,size,ram,bw,cpunum,vmm)>
+<!ATTLIST req id ID #REQUIRED >
+<!ELEMENT mips (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT bw (#PCDATA)>
+<!ELEMENT cpunum (#PCDATA)>
+<!ELEMENT vmm (#PCDATA)>

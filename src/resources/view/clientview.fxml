@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="722.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
+   <children>
+      <Button layoutX="400.0" layoutY="616.0" mnemonicParsing="false" onAction="#newVm" prefHeight="38.0" prefWidth="240.0" styleClass="btn" stylesheets="@../css/globale.css" text="New VM" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu Medium" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="726.0" layoutY="616.0" mnemonicParsing="false" onAction="#vmStat" prefHeight="38.0" prefWidth="240.0" styleClass="btn" stylesheets="@../css/globale.css" text="VMs Statistics" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu Medium" size="16.0" />
+         </font>
+      </Button>
+      <Text fx:id="title" fill="#6633ff" layoutX="450.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UBS CLOUD">
+         <font>
+            <Font name="Ubuntu Medium" size="86.0" />
+         </font>
+      </Text>
+      <Pane fx:id="vmForm" layoutX="440.0" layoutY="22.0" prefHeight="578.0" prefWidth="485.0" style="-fx-background-color: #f1f1f1; -fx-background-radius: 15px;" visible="false">
+         <children>
+            <Label layoutX="62.0" layoutY="35.0" text="Vm Form" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmmipsfield" layoutX="62.0" layoutY="101.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="80.0" text="MIPS" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmsizefield" layoutX="62.0" layoutY="176.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="155.0" text="Size" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmramfield" layoutX="62.0" layoutY="249.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="228.0" text="RAM" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmbwfield" layoutX="62.0" layoutY="321.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="300.0" text="Bande Width" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmcpufield" layoutX="62.0" layoutY="395.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="374.0" text="CPU Number" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vmvmmfield" layoutX="62.0" layoutY="467.0" prefHeight="39.0" prefWidth="407.0" />
+            <Label layoutX="62.0" layoutY="446.0" text="VMM" textFill="#6200ee">
+               <font>
+                  <Font name="Ubuntu Medium" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="62.0" layoutY="519.0" mnemonicParsing="false" onAction="#addvm" prefHeight="39.0" prefWidth="407.0" styleClass="btn" stylesheets="@../css/globale.css" text="Recv vm">
+               <font>
+                  <Font name="Ubuntu Medium" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
